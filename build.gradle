@@ -12,6 +12,13 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // https://mvnrepository.com/artifact/com.microsoft.playwright/playwright
+    implementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.34.0'
+// https://mvnrepository.com/artifact/com.microsoft.playwright/driver-bundle
+    implementation group: 'com.microsoft.playwright', name: 'driver-bundle', version: '1.34.0'
+// https://mvnrepository.com/artifact/com.microsoft.playwright/driver
+    implementation group: 'com.microsoft.playwright', name: 'driver', version: '1.34.0'
+
 }
 
 test {
